@@ -1,14 +1,15 @@
 {
-  "name": "backend",
+  "name": "refund_api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "commonjs",
+  "description": "API de solicitação de reembolso",
   "dependencies": {
     "express": "^4.19.2"
   },
